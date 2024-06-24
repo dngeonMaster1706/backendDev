@@ -73,6 +73,7 @@ userSchema.methods.generateAccessToken=function(){
         }
     )
 }
+
 userSchema.methods.generateRefressToken=function(){
     return jwt.sign(
         {
